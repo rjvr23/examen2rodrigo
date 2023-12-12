@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@font-face{
+font-family: 'Poppins', sans-serif;
+	src:url("../fonts/Poppins-Medium.ttf") format("Truetype")
+}
+
+
+:root{
+	--color-negro:#222;
+	--menu-hover:#b68834;
+	--color-cafe:#b68834;
+	--color-gris:#777;
+	--fondo-header:#222;
+	--fondo-footer:#282932;
+	--color--titulos:#2a2a2a;
+	--color-blanco: #FFF;
+	
+}
+
+
+.titulo {
+    color: var(--color-titulos);
+    font-size: 40px;
+	font-family: 'Poppins';
+   }
+
+
+#hero{
+	background-image: url("../img/header-bg.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding: 20%;
+	font-family: 'Poppins';
+}
+
+#hero h1{
+	color: var(--color-blanco);
+	font-size: 50px;
+}
+
+.btn-moto{
+	background-color: var(--color-blanco);
+	color: var(--color-negro);
+	padding: 10px 50px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-family: 'Poppins';
+}
+
+#about {
+	padding: 30px;
+	font-family: 'Poppins';
+	}
+
+#about h5{
+	color: var(--menu-hover);
+	
+	 }
+
+#about h6{
+	color: var(--color-negro);
+	 }
+
+#about p{
+	color: var(--color-gris);
+	 }
+
+body{
+
+	font-size: 14px;
+}
+header{
+	position: relative;
+	background-color: var(--fondo-header);
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: var(--fondo-footer);
+	background-image: url("../img/footer-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: var(--color-cafe);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
